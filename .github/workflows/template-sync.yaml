@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   sync:
-    uses: schubergphilis-ep/github-python-workflows/.github/workflows/template-sync.yaml
+    uses: schubergphilis-ep/github-python-workflows/.github/workflows/template-sync.yaml@main
     with:
       project_description: 'python library for testing'
       project_name: 'test260211lib'
